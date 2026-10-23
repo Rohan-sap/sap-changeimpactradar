@@ -31,7 +31,7 @@ const analysisSchema = {
 
     impacts: {
       type: "array",
-      maxItems: 15,
+      maxItems: 5,
 
       items: {
         type: "object",
@@ -78,7 +78,7 @@ const analysisSchema = {
 
     risks: {
       type: "array",
-      maxItems: 12,
+      maxItems: 5,
 
       items: {
         type: "object",
@@ -123,7 +123,7 @@ const analysisSchema = {
 
     testScenarios: {
       type: "array",
-      maxItems: 15,
+      maxItems: 6,
 
       items: {
         type: "object",
@@ -174,7 +174,7 @@ const analysisSchema = {
 
     openQuestions: {
       type: "array",
-      maxItems: 10,
+      maxItems: 4,
 
       items: {
         type: "object",
